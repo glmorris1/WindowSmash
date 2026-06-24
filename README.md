@@ -22,4 +22,9 @@ npm run dev
 
 ## Deploy
 
-Pushes to `main` auto-deploy via GitHub Actions. Enable Pages under repo Settings → Pages → Source: GitHub Actions.
+```bash
+npm run deploy
+```
+
+This builds the app and pushes to the `gh-pages` branch. GitHub Pages serves from:
+https://glmorris1.github.io/WindowSmash/
